@@ -28,4 +28,8 @@ if __name__ == '__main__':
     card = Card('8', 'diamonds')
     print(card.rank)
     print(card.suit)
+    deck = FrenchRank()
+    print(len(deck))
+    for item in deck:
+        print(item)
 
